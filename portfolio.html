@@ -1,34 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Curtis's Portfolio Website</title>
-    <meta name="author" content="Curtis">
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Lato" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMH Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Pavanam|Lustria" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <header>
-        <h1>Work by Curtis</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-    </nav>
-    <main>
-        <article>
-            <h2>Photography</h2>
-            <img src="images/tape_sculpture_2.jpg">
+  <header class="grid-x grid-padding-x" id="header">
+    <h1 class="cell small-6 medium-6 large-6">CMH</h1>
+    <h1 class="cell small-6 medium-6 large-6 greeting" id="message"></h1>
+  </header>
+  <nav class="cell small-12 medium-9 large-10">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+   
+   <h2>View My Portfolio</h2>
+    <main class="grid-x grid-padding-x">
+        <article class="cell">
+        <img src="images/tsculpt.JPG" class="cell portimg large-12">
+        <p>A lifesize tape sculpture &#40;2018&#41;</p>
+        </article>
+        
+        <article class="cell">
+        <img src="images/illusion.JPG" class="cell portimg large-12">
+        <p>Photograph of mannequin &#40;2018&#41;</p>
+        </article>
+        
+        <article class="cell">
+        <img src="images/lightface.JPG" class="cell portimg large-12">
+        <p>Photograph of light projected on model &#40;2018&#41;</p>
         </article>
         
     </main>
     <footer>
         
     </footer>
-    <script src="js/main.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

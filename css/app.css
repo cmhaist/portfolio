@@ -4,8 +4,21 @@ body {
   color: #ffffff;
 }
 
+h1, h2, h3 {
+    font-family: 'Lustria', serif;
+    vertical-align: text-bottom;
+}
+
+h2 {
+    text-align: center;
+}
+
 header {
   background-color: #5d77a3;
+}
+
+p {
+    font-family: 'Pavanam', sans-serif;
 }
 
 .greeting {
@@ -15,6 +28,7 @@ header {
 nav {
   text-align: center;
   font-size: 30px;
+    font-family: 'Pavanam', sans-serif;
 }
 
 nav ul {
@@ -23,10 +37,61 @@ nav ul {
   padding: 0;
 }
 
-nav li {
-  display: inline-block;
-}
-
 li a {
+    display: block;
+    color: #39afef;
+}
+
+li a:hover {
+    background-color: #5d77a3;
+    color: #ffffff;
+}
+
+img {
+    width: 400px;
+    float: right;
+    padding: 0px 20px;
+}
+
+.portimg {
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    float: none;
+}
+
+label {
+    color: #ffffff;
+}
+
+fieldset ul {
+    list-style-type: none;
+}
+
+input[type='checkbox'] {
+    zoom: 4;
+}
+
+@media screen and (min-width: 480px) {
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+    }
+    
+    li a {
+        width: 150px;
+    }
+    
+    input[type='checkbox'] {
+        zoom: 0;
+    }
 
 }
+    
