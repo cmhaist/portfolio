@@ -5,10 +5,7 @@ var hourNow = today.getHours();
 var greeting;
 
 if (hourNow > 14) {
-
   greeting = 'Good evening!';
-
-
 } else if (hourNow > 12) {
   greeting = 'Good afternoon!';
 } else if (hourNow > 0) {
@@ -16,5 +13,4 @@ if (hourNow > 14) {
 } else {
   greeting = 'Welcome!';
 }
-
 document.getElementById("message").innerHTML = greeting;
