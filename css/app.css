@@ -53,12 +53,20 @@ img {
     padding: 0px 20px;
 }
 
-.portimg {
+figure img {
     width: auto;
     display: block;
     margin: auto;
     padding: 20px;
     float: none;
+}
+
+figure {
+    padding-bottom: 2em
+}
+
+figcaption {
+    text-align: center;
 }
 
 label {
