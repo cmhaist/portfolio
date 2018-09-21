@@ -51,9 +51,11 @@ img {
     width: 400px;
     float: right;
     padding: 0px 20px;
+    /* this needs to be deleted later and images need to be replaced with appropriate size */
 }
 
-figure img {
+
+figure>img {
     width: auto;
     display: block;
     margin: auto;
